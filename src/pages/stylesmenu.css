@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+:root{
+    --verde: #e8eeff;
+    --azul: #c5f2ff;
+    --gradiente: linear-gradient(135deg, var(--verde) 0%, var(--azul) 99%);
+    --gradientetransparente: linear-gradient(180deg, var(--verde) 0%, var(--azul) 85%, rgba(255,0,0, 0) 100%);
+    --text-dark: #1b1e3a;
+
+}
+
+html, body, div{
+    width: 100%;
+    background-color: #1b1e3a;
+}
+
+.text-center{
+    color: var(--azul);
+}
+
+h1{
+    color: var(--azul);
+}
+
+/*MENU*/
+
+.menubar{
+    background: var(--text-dark);
+    box-shadow: 0 -10px 10px -10px var(--verde);
+    border-bottom: 10px double var(--verde);
+}
+
+.logo{
+    display: inline-block; 
+    transition: .2s ease; 
+    color: var(--azul);
+    width: 2.5%;
+}
+.logo:hover{
+    color: var(--verde);
+    transform: translateY(-20%); 
+}
+
+.menutext{
+    color: var(--azul);
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration: none;
+    display: inline-block; 
+    transition: .2s ease; 
+
+}
+
+.menutext:hover{
+    color: var(--verde);
+    transform: translateY(-20%); 
+}
+
+.footerbar{
+    position: absolute;
+    bottom: -25px;
+    border-top: 5px double var(--verde);
+}
+
+.footertext{
+    color: var(--azul)
+}
+
+/* HOME */
+
+
+.imgmain{
+    width: 450px;
+    object-fit: fit;
+    src: url(https://images.pexels.com/photos/747101/pexels-photo-747101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+/* SOBRE */
+
+.psobre{
+    background-color: var(--verde);
+    color: var(--text-dark);
+    width: 500px;
+}
+
+/* CADASTRO */
+
+.formscadastro{
+    width: 200px;
+}
+
