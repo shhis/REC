@@ -13,7 +13,7 @@ function Home(){
                 <img class="imgmain" src="https://images.pexels.com/photos/19168467/pexels-photo-19168467/free-photo-of-snow-on-rocky-mountain-peak.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
             </div>
             <Rodape/>
-=        </div>
+       </div>
     )
 }
 export default Home

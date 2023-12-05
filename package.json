@@ -2,13 +2,13 @@
   "name": "rec",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/shhis/REC#readme",
+  "homepage": "https://github.io/shhis/REC",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "dev": "vite",
-    "build": "vite build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
